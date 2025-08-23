@@ -54,11 +54,11 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/c_briggsae_allele.fa",
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/c_briggsae_allele.fa",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/c_briggsae_allele.fa.fai",
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/c_briggsae_allele.fa.fai",
             "locationType": "UriLocation"
           }
         }
@@ -78,12 +78,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_annotation.gff.gz",
+          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_annotation.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_annotation.gff.gz.tbi",
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_annotation.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
