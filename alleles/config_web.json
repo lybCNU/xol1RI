@@ -119,7 +119,7 @@
       "adapter": {
         "type": "PAFAdapter",
         "pafLocation": {
-          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/c_briggsae_allele_vs_c_briggsae_genome.paf",
+          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/c_briggsae_allele_vs_c_briggsae_genome.paf",
           "locationType": "UriLocation"
         },
         "assemblyNames": [
@@ -139,7 +139,7 @@
       "adapter": {
         "type": "BedAdapter",
         "bedLocation": {
-          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/cbgRNA.bed",
+          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/cbgRNA.bed",
           "locationType": "UriLocation"
         }
       },
@@ -154,7 +154,7 @@
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
-          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/c_briggsae_allele.gff3",
+          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/c_briggsae_allele.gff3",
           "locationType": "UriLocation"
         }
       },
