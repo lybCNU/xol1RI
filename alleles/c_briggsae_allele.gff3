@@ -1,0 +1,72 @@
+thuB118	Allele	gene	501	4585	.	+	1	ID=thuB118;description=PCbr-Phis-72_Promoter::mNeonGreen::H2B::Cbr-his-72 3'UTR
+thuB118	Allele	promoter	501	2882	.	+	1	Parent=thuB118;ID=PCbr-Phis-72_Promoter
+thuB118	Allele	mRNA	2883	4585	.	+	1	Parent=thuB118;ID=mNeonGreen-H2B
+thuB118	Allele	CDS	2883	2988	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
+thuB118	Allele	CDS	3040	3168	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
+thuB118	Allele	CDS	3220	3350	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
+thuB118	Allele	CDS	3402	3626	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
+thuB118	Allele	CDS	3678	3794	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
+thuB118	Allele	CDS	3795	3800	.	+	1	Parent=mNeonGreen-H2B;ID=linker;label=linker
+thuB118	Allele	CDS	3801	4169	.	+	1	Parent=mNeonGreen-H2B;ID=H2B;label=H2B
+thuB118	Allele	three_prime_UTR	4170	4585	.	+	1	Parent=mNeonGreen-H2B;ID=UTR;label=Cbr-his-72 3'UTR
+thuB119	Allele	gene	501	4585	.	+	1	ID=thuB119;description=PCbr-Phis-72_Promoter::wCherry::H2B::Cbr-his-72 3'UTR
+thuB119	Allele	promoter	501	2882	.	+	1	Parent=thuB119;ID=PCbr-Phis-72_Promoter
+thuB119	Allele	mRNA	2883	4118	.	+	1	Parent=thuB119;ID=wCherry-H2B
+thuB119	Allele	CDS	2883	3038	.	+	1	Parent=wCherry-H2B;ID=wCherry;label=wCherry
+thuB119	Allele	CDS	3090	3283	.	+	1	Parent=wCherry-H2B;ID=wCherry;label=wCherry
+thuB119	Allele	CDS	3335	3527	.	+	1	Parent=wCherry-H2B;ID=wCherry;label=wCherry
+thuB119	Allele	CDS	3579	3743	.	+	1	Parent=wCherry-H2B;ID=wCherry;label=wCherry
+thuB119	Allele	CDS	3744	3749	.	+	1	Parent=wCherry-H2B;ID=linker;label=linker
+thuB119	Allele	CDS	3750	4118	.	+	1	Parent=wCherry-H2B;ID=H2B;label=H2B
+thuB119	Allele	three_prime_UTR	4119	4534	.	+	1	Parent=wCherry-H2B;ID=UTR;label=Cbr-his-72 3'UTR
+thuB120	Allele	gene	513	4585	.	+	1	ID=thuB120;description=PCbr-Phis-72_Promoter::Myri::wCherry::Cbr-his-72 3'UTR
+thuB120	Allele	promoter	513	2882	.	+	1	Parent=thuB120;ID=PCbr-Phis-72_Promoter
+thuB120	Allele	mRNA	2883	4189	.	+	1	Parent=thuB120;ID=Myri_wCherry
+thuB120	Allele	CDS	2883	2903	.	+	1	Parent=Myri_wCherry;ID=myristoylation;label=myristoylation
+thuB120	Allele	CDS	2904	2909	.	+	1	Parent=Myri_wCherry;ID=SphI
+thuB120	Allele	CDS	2910	3065	.	+	1	Parent=Myri_wCherry;ID=wCherry;label=wCherry;translation=length.236
+thuB120	Allele	CDS	3117	3310	.	+	1	Parent=Myri_wCherry;ID=wCherry;label=wCherry;translation=length.236
+thuB120	Allele	CDS	3362	3554	.	+	1	Parent=Myri_wCherry;ID=wCherry;label=wCherry;translation=length.236
+thuB120	Allele	CDS	3606	3773	.	+	1	Parent=Myri_wCherry;ID=wCherry;label=wCherry;translation=length.236
+thuB120	Allele	three_prime_UTR	3774	4189	.	+	1	Parent=Myri_wCherry;ID=UTR;label=Cbr-his-72 3'UTR
+thuB129	Allele	gene	501	12594	.	+	1	ID=thuB129;description=Cni-xol-1 Knock in to C. briggeae genome chrII
+thuB129	Allele	promoter	501	10189	.	+	1	Parent=thuB129;ID=PCni-xol-1_promoter
+thuB129	Allele	mRNA	10190	12594	.	+	1	Parent=thuB129;ID=Cnig_chr_X.g24950
+thuB129	Allele	CDS	10190	10266	.	+	1	Parent=Cnig_chr_X.g24950;ID=Cnig_chr_X.g24950_CDS;label=Cni-xol-1
+thuB129	Allele	CDS	10323	10404	.	+	1	Parent=Cnig_chr_X.g24950;ID=Cnig_chr_X.g24950_CDS;label=Cni-xol-1
+thuB129	Allele	CDS	10450	10632	.	+	1	Parent=Cnig_chr_X.g24950;ID=Cnig_chr_X.g24950_CDS;label=Cni-xol-1
+thuB129	Allele	CDS	11027	11137	.	+	1	Parent=Cnig_chr_X.g24950;ID=Cnig_chr_X.g24950_CDS;label=Cni-xol-1
+thuB129	Allele	CDS	11183	11342	.	+	1	Parent=Cnig_chr_X.g24950;ID=Cnig_chr_X.g24950_CDS;label=Cni-xol-1
+thuB129	Allele	CDS	11389	11758	.	+	1	Parent=Cnig_chr_X.g24950;ID=Cnig_chr_X.g24950_CDS;label=Cni-xol-1
+thuB129	Allele	CDS	11807	12103	.	+	1	Parent=Cnig_chr_X.g24950;ID=Cnig_chr_X.g24950_CDS;label=Cni-xol-1
+thuB129	Allele	three_prime_UTR	12104	12594	.	+	1	Parent=Cnig_chr_X.g24950;ID=Cnig_chr_X.g24950_UTR;label=Cni-xol-1 3'UTR
+thuB130	Allele	gene	501	9467	.	+	1	ID=thuB130;description=PCbr-xol-1::mNeonGreen::Cbr-xol-1 3'UTR Knock in to C. briggeae genome chrII
+thuB130	Allele	promoter	501	9467	.	+	1	Parent=thuB130;ID=PCbr-Pxol-1_Promoter
+thuB130	Allele	mRNA	9468	10894	.	+	1	Parent=thuB130;ID=mNeonGreen
+thuB130	Allele	CDS	9468	9573	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB130	Allele	CDS	9625	9753	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB130	Allele	CDS	9805	9935	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB130	Allele	CDS	9987	10211	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB130	Allele	CDS	10263	10382	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB130	Allele	three_prime_UTR	10383	10894	.	+	1	Parent=mNeonGreen;ID=UTR;label=Cbr-xol-1 3'UTR
+thuB134	Allele	gene	501	12594	.	+	1	ID=thuB134;description=Cni-xol-1.1 Knock in to C. briggeae genome chrII
+thuB134	Allele	region	501	10673	.	+	1	Parent=thuB134;ID=PCni-xol-1.1_promoter
+thuB134	Allele	mRNA	10674	12600	.	+	1	Parent=thuB134;ID=Cnig_chr_X.g24897
+thuB134	Allele	CDS	10674	10750	.	+	1	Parent=Cnig_chr_X.g24897;ID=Cnig_chr_X.g24897_CDS;label=Cni-xol-1.1
+thuB134	Allele	CDS	10807	10888	.	+	1	Parent=Cnig_chr_X.g24897;ID=Cnig_chr_X.g24897_CDS;label=Cni-xol-1.1
+thuB134	Allele	CDS	10934	11116	.	+	1	Parent=Cnig_chr_X.g24897;ID=Cnig_chr_X.g24897_CDS;label=Cni-xol-1.1
+thuB134	Allele	CDS	11426	11534	.	+	1	Parent=Cnig_chr_X.g24897;ID=Cnig_chr_X.g24897_CDS;label=Cni-xol-1.1
+thuB134	Allele	CDS	11582	11741	.	+	1	Parent=Cnig_chr_X.g24897;ID=Cnig_chr_X.g24897_CDS;label=Cni-xol-1.1
+thuB134	Allele	CDS	11787	12156	.	+	1	Parent=Cnig_chr_X.g24897;ID=Cnig_chr_X.g24897_CDS;label=Cni-xol-1.1
+thuB134	Allele	CDS	12204	12503	.	+	1	Parent=Cnig_chr_X.g24897;ID=Cnig_chr_X.g24897_CDS;label=Cni-xol-1.1
+thuB134	Allele	three_prime_UTR	12504	13221	.	+	1	Parent=Cnig_chr_X.g24897;ID=Cnig_chr_X.g24897_UTR;label=Cni-xol-1.1 3'UTR
+thuB137	Allele	gene	509	11624	.	+	1	ID=thuB137;description=PCni-xol-1::mNeonGreen::Cbr-xol-1 3'UTR Knock in to C. briggeae genome chrII
+thuB137	Allele	promoter	509	10197	.	+	1	Parent=thuB137;ID=PCni-Pxol-1_Promoter
+thuB137	Allele	mRNA	10198	11624	.	+	1	Parent=thuB137;ID=mNeonGreen
+thuB137	Allele	CDS	10198	10303	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB137	Allele	CDS	10355	10483	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB137	Allele	CDS	10535	10664	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB137	Allele	CDS	10717	10941	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB137	Allele	CDS	10993	11112	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
+thuB137	Allele	three_prime_UTR	11113	11624	.	+	1	Parent=mNeonGreen;ID=UTR;label=Cbr-xol-1 3'UTR
+X	Allele	deletion	13798089	13798552	.	+	1	ID=thuB124;description=Cbr-xol-1 Deletion Region
