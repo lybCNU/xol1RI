@@ -63,6 +63,24 @@
           }
         }
       }
+    },
+    {
+      "name": "c_nigoni_allele",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_nigoni_allele-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/c_nigoni_allele.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/c_nigoni_allele.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
     }
   ],
   "configuration": {},
@@ -159,7 +177,59 @@
         }
       },
       "assemblyNames": [
-        "c_briggsae.PRJNA10731.WS284.genomic","c_briggsae_allele"
+        "c_briggsae.PRJNA10731.WS284.genomic",
+        "c_briggsae_allele"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "c_nigoni_allele_vs_c_nigoni_genome",
+      "name": "c_nigoni_allele_vs_c_nigoni_genome",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/c_nigoni_allele_vs_c_nigoni_genome.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "c_nigoni_allele",
+          "GCA_027920645.1_ASM2792064v1_genomic"
+        ]
+      },
+      "assemblyNames": [
+        "c_nigoni_allele",
+        "GCA_027920645.1_ASM2792064v1_genomic"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_nigoni_allele",
+      "name": "c_nigoni_allele",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/c_nigoni_allele.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "c_nigoni_allele",
+        "GCA_027920645.1_ASM2792064v1_genomic"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "cngRNA",
+      "name": "gRNA used in C. nigoni",
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/cngRNA.bed",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "GCA_027920645.1_ASM2792064v1_genomic"
       ]
     }
   ]
