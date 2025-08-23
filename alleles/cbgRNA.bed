@@ -1,5 +1,5 @@
 II	5281686	5281706	.	20	+	ID=II.4;note=co-CRISPR_gRNA:attcgcgtcagatgatgtac
-II	6716332	6716352	.	20	+	ID=II.1;note=thuB120_thuB129_gRNA:gctctataaaggcaccgcgg
+II	6716332	6716352	.	20	+	ID=II.1;note=thuB120_thuB129_thuB130_thuB137_gRNA:gctctataaaggcaccgcgg
 II	14009703	14009723	.	20	+	ID=II.2;note=thuB134_gRNA_1:CGACACCCTAAACCCTGCCA
 II	14009911	14009931	.	20	+	ID=II.3;note=thuB134_gRNA_2:GCATAAGGTCGATTATCCAT
 X	9246950	9246970	.	20	+	ID=X.1;note=thuB118_thuB119_gRNA:cgtggggaaagtctgcgccc
