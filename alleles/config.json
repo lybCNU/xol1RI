@@ -8,15 +8,15 @@
         "adapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
-            "uri": "http://192.168.156.13:8889/jbrowse_for_publication/GCA_027920645.1_ASM2792064v1_genomic.fa.gz",
+            "uri": "GCA_027920645.1_ASM2792064v1_genomic.fa.gz",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "http://192.168.156.13:8889/jbrowse_for_publication/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.fai",
+            "uri": "GCA_027920645.1_ASM2792064v1_genomic.fa.gz.fai",
             "locationType": "UriLocation"
           },
           "gziLocation": {
-            "uri": "http://192.168.156.13:8889/jbrowse_for_publication/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.gzi",
+            "uri": "GCA_027920645.1_ASM2792064v1_genomic.fa.gz.gzi",
             "locationType": "UriLocation"
           }
         }
