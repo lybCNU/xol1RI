@@ -1,0 +1,166 @@
+{
+  "assemblies": [
+    {
+      "name": "GCA_027920645.1_ASM2792064v1_genomic",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "GCA_027920645.1_ASM2792064v1_genomic-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.fai",
+            "locationType": "UriLocation"
+          },
+          "gziLocation": {
+            "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.gzi",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "displayName": "C. nigoni JU1421 (GCA_027920645.1_ASM2792064v1)"
+    },
+    {
+      "name": "c_briggsae.PRJNA10731.WS284.genomic",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_briggsae.PRJNA10731.WS284.genomic-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz.fai",
+            "locationType": "UriLocation"
+          },
+          "gziLocation": {
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz.gzi",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "displayName": "C. briggsae AF16 (PRJNA10731)"
+    },
+    {
+      "name": "c_briggsae_allele",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_briggsae_allele-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/c_briggsae_allele.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/c_briggsae_allele.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "GCA_027920645.1_ASM2792064v1_annotation.gff",
+      "name": "Gene Liftoff From WormBase JU1422 (PRJNA384657)",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_annotation.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_annotation.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "GCA_027920645.1_ASM2792064v1_genomic"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "trackData",
+      "name": "Wormbase Curated Gene",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS295/c_briggsae_PRJNA10731/tracks/Curated_Genes/{refseq}/trackData.jsonz",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "c_briggsae.PRJNA10731.WS284.genomic"
+      ],
+      "description": "Protein-coding gene structures result from the integration of a variety of prediction methods and data sources followed by manual review and revison by WormBase curators. tRNAs are predicted by tRNAscan, and other non-coding RNA transcripts are taken from a variety of literature sources. The purple and blue colors indicate transcripts on the forward and reverse strands respectively. Dark purple areas represent 5' and 3' UTRs of protein-coding transcripts, assigned automatically using the extents of overlapping ESTs and full-length cDNAs. The UTR predictions have not been reviewed by WormBase curators, and some are known to contain artifacts. Grey transcripts represent either non-coding transcripts of protein coding genes or transcripts of non-coding genes.",
+      "category": [
+        "Curated Genes"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "c_briggsae_allele_vs_c_briggsae_genome",
+      "name": "c_briggsae_allele_vs_c_briggsae_genome",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/c_briggsae_allele_vs_c_briggsae_genome.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "c_briggsae_allele",
+          "c_briggsae.PRJNA10731.WS284.genomic"
+        ]
+      },
+      "assemblyNames": [
+        "c_briggsae_allele",
+        "c_briggsae.PRJNA10731.WS284.genomic"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "cbgRNA",
+      "name": "gRNA used in C. briggsae",
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/cbgRNA.bed",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "c_briggsae.PRJNA10731.WS284.genomic"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_allele",
+      "name": "c_briggsae_allele",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "https://github.com/lybCNU/xol1RI/raw/refs/heads/main/alleles/c_briggsae_allele.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "c_briggsae.PRJNA10731.WS284.genomic","c_briggsae_allele"
+      ]
+    }
+  ]
+}
