@@ -69,4 +69,17 @@ thuB137	Allele	CDS	10535	10664	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=m
 thuB137	Allele	CDS	10717	10941	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
 thuB137	Allele	CDS	10993	11112	.	+	1	Parent=mNeonGreen;ID=mNeonGreen_CDS;label=mNeonGreen
 thuB137	Allele	three_prime_UTR	11113	11624	.	+	1	Parent=mNeonGreen;ID=UTR;label=Cbr-xol-1 3'UTR
+thuB142	GenBank	gene	501	3143	.	+	1	ID=thuB142_reporter;description=PCbr-myo-2::GFP::Cbr-his-72 3'UTR
+thuB142	GenBank	promoter	501	1745	.	+	1	Parent=thuB142_reporter;ID=PCbr-Pmyo-2_Promoter
+thuB142	GenBank	mRNA	1746	2642	.	+	1	Parent=thuB142_reporter;ID=GFP
+thuB142	GenBank	CDS	1746	1943	.	+	1	Parent=GFP;ID=GFP_CDS1;label=GFP
+thuB142	GenBank	CDS	1995	2148	.	+	1	Parent=GFP;ID=GFP_CDS2;label=GFP
+thuB142	GenBank	CDS	2200	2363	.	+	1	Parent=GFP;ID=GFP_CDS3;label=GFP
+thuB142	GenBank	CDS	2415	2642	.	+	1	Parent=GFP;ID=GFP_CDS4;label=GFP
+thuB142	GenBank	three_prime_UTR	2643	3643	.	+	1	Parent=GFP;ID=UTR_reporter;label=Cbr-his-72 3'UTR
+thuB142	GenBank	gene	3644	5937	.	+	1	ID=thuB142_neoR;description=Prps-27_Promoter::NeoR::unc-54 3'UTR
+thuB142	GenBank	promoter	3644	4443	.	+	1	Parent=thuB142_neoR;ID=Prps-27_Promoter
+thuB142	GenBank	mRNA	4444	5238	.	+	1	Parent=thuB142_neoR;ID=neoR_mRNA
+thuB142	GenBank	CDS	4444	5237	.	+	1	Parent=neoR_mRNA;ID=neoR_CDS;label=neoR
+thuB142	GenBank	three_prime_UTR	5239	5937	.	+	1	Parent=neoR_mRNA;ID=UTR_neoR;label=unc-54 3'UTR
 X	Allele	deletion	13798089	13798552	.	+	1	ID=thuB124;description=Cbr-xol-1 Deletion Region
