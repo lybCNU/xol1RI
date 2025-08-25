@@ -81,6 +81,20 @@
           }
         }
       }
+    },
+    {
+      "name": "cn.ASM2792064v1_cb4.PRJNA10731",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "cn.ASM2792064v1_cb4.PRJNA10731-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "ChromSizesAdapter",
+          "chromSizesLocation": {
+            "uri": "cn.ASM2792064v1_cb4.PRJNA10731.chrom.sizes",
+            "locationType": "UriLocation"
+          }
+        }
+      }
     }
   ],
   "configuration": {},
