@@ -4,3 +4,4 @@ II	14009703	14009723	.	20	+	ID=II.2;note=thuB134_gRNA_1:CGACACCCTAAACCCTGCCA
 X	9246950	9246970	.	20	+	ID=X.1;note=thuB118_thuB119_gRNA:cgtggggaaagtctgcgccc
 X	13798078	13798098	.	20	+	ID=X.2;note=thuB124_gRNA_1:ccatatcgcaaacgatggct
 X	13798548	13798568	.	20	-	ID=X.5;note=thuB124_gRNA_4:agacggtgactcaactctgg
+X	16467067	16467087	.	20	-	ID=X.1;note=*pat pattern:CATGTGCAAGATTGCAAATT
