@@ -4,6 +4,4 @@ II	14009703	14009723	.	20	+	ID=II.2;note=thuB134_gRNA_1:CGACACCCTAAACCCTGCCA
 II	14009911	14009931	.	20	+	ID=II.3;note=thuB134_gRNA_2:GCATAAGGTCGATTATCCAT
 X	9246950	9246970	.	20	+	ID=X.1;note=thuB118_thuB119_gRNA:cgtggggaaagtctgcgccc
 X	13798078	13798098	.	20	+	ID=X.2;note=thuB124_gRNA_1:ccatatcgcaaacgatggct
-X	13798151	13798171	.	20	+	ID=X.3;note=thuB124_gRNA_2:tctcgcgcccctccagggta
-X	13798394	13798414	.	20	+	ID=X.4;note=thuB124_gRNA_3:gacgttggagataacgcgcc
 X	13798548	13798568	.	20	-	ID=X.5;note=thuB124_gRNA_4:agacggtgactcaactctgg
