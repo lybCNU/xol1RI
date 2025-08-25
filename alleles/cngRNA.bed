@@ -2,7 +2,6 @@ II	6095645	6095665	.	20	-	fuzznuc	nucleotide_motif	.	ID=II.2;note=*pat co-CRISPR
 II	7526992	7527013	.	21	+	fuzznuc	nucleotide_motif	.	ID=II.1;note=*pat thuN26:GCTCTATAAAAGGCACCGCGG
 X	14193160	14193180	.	20	+	fuzznuc	nucleotide_motif	.	ID=X.1;note=*pat thuN14:CGTGGGGGAAGTCTGCGCCC
 X	18452706	18452726	.	20	-	fuzznuc	nucleotide_motif	.	ID=X.7;note=*pat thuN23_thu24_thuN30_thuN52_thuN53_3:CGCAGAGACATTCTACGCAA
-X	18452810	18452830	.	20	-	fuzznuc	nucleotide_motif	.	ID=X.6;note=*pat thuN23_thuN24_2:AAAGTCGTTAGAGCATCCAG
 X	18453350	18453370	.	20	-	fuzznuc	nucleotide_motif	.	ID=X.5;note=*pat thuN23_thuN24_thuN52_thuN53_1:GTACTGTAAAGCTACCACCA
 X	18791599	18791619	.	20	+	fuzznuc	nucleotide_motif	.	ID=X.4;note=*pat thuN52_thuN53_3:CTCTTCCAATTGAAGAGTAA
 X	18791809	18791829	.	20	+	fuzznuc	nucleotide_motif	.	ID=X.2;note=*pat thuN23_thuN24_thuN52_thuN53_1:GTACTGTAAAGCTACCACCA
