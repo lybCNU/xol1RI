@@ -1,4 +1,4 @@
-thuB118	Allele	gene	501	4585	.	+	1	ID=thuB118;description=PCbr-Phis-72_Promoter::mNeonGreen::H2B::Cbr-his-72 3'UTR
+thuB118	Allele	gene	501	4585	.	+	1	ID=thuB118;description=PCbr-Phis-72::mNeonGreen::H2B::Cbr-his-72 3'UTR
 thuB118	Allele	promoter	501	2882	.	+	1	Parent=thuB118;ID=PCbr-Phis-72_Promoter
 thuB118	Allele	mRNA	2883	4585	.	+	1	Parent=thuB118;ID=mNeonGreen-H2B
 thuB118	Allele	CDS	2883	2988	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
@@ -9,7 +9,7 @@ thuB118	Allele	CDS	3678	3794	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNe
 thuB118	Allele	CDS	3795	3800	.	+	1	Parent=mNeonGreen-H2B;ID=linker;label=linker
 thuB118	Allele	CDS	3801	4169	.	+	1	Parent=mNeonGreen-H2B;ID=H2B;label=H2B
 thuB118	Allele	three_prime_UTR	4170	4585	.	+	1	Parent=mNeonGreen-H2B;ID=UTR;label=Cbr-his-72 3'UTR
-thuB119	Allele	gene	501	4585	.	+	1	ID=thuB119;description=PCbr-Phis-72_Promoter::wCherry::H2B::Cbr-his-72 3'UTR
+thuB119	Allele	gene	501	4585	.	+	1	ID=thuB119;description=PCbr-Phis-72::wCherry::H2B::Cbr-his-72 3'UTR
 thuB119	Allele	promoter	501	2882	.	+	1	Parent=thuB119;ID=PCbr-Phis-72_Promoter
 thuB119	Allele	mRNA	2883	4118	.	+	1	Parent=thuB119;ID=wCherry-H2B
 thuB119	Allele	CDS	2883	3038	.	+	1	Parent=wCherry-H2B;ID=wCherry;label=wCherry
@@ -19,7 +19,7 @@ thuB119	Allele	CDS	3579	3743	.	+	1	Parent=wCherry-H2B;ID=wCherry;label=wCherry
 thuB119	Allele	CDS	3744	3749	.	+	1	Parent=wCherry-H2B;ID=linker;label=linker
 thuB119	Allele	CDS	3750	4118	.	+	1	Parent=wCherry-H2B;ID=H2B;label=H2B
 thuB119	Allele	three_prime_UTR	4119	4534	.	+	1	Parent=wCherry-H2B;ID=UTR;label=Cbr-his-72 3'UTR
-thuB120	Allele	gene	513	4585	.	+	1	ID=thuB120;description=PCbr-Phis-72_Promoter::Myri::wCherry::Cbr-his-72 3'UTR
+thuB120	Allele	gene	513	4585	.	+	1	ID=thuB120;description=PCbr-Phis-72::Myri::wCherry::Cbr-his-72 3'UTR
 thuB120	Allele	promoter	513	2882	.	+	1	Parent=thuB120;ID=PCbr-Phis-72_Promoter
 thuB120	Allele	mRNA	2883	4189	.	+	1	Parent=thuB120;ID=Myri_wCherry
 thuB120	Allele	CDS	2883	2903	.	+	1	Parent=Myri_wCherry;ID=myristoylation;label=myristoylation
