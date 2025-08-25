@@ -1,5 +1,5 @@
-thuN14	GenBank	gene	501	4585	.	+	1	ID=thuN14;description=PCbr-Phis-72::wCherry::H2B::Cbr-his-72 3'UTR
-thuN14	GenBank	promoter	501	2882	.	+	1	Parent=thuN14;ID=PCbr-Phis-72_Promoter
+thuN14	GenBank	gene	501	4585	.	+	1	ID=thuN14;description=PCbr-his-72::wCherry::H2B::Cbr-his-72 3'UTR
+thuN14	GenBank	promoter	501	2882	.	+	1	Parent=thuN14;ID=PCbr-his-72_Promoter
 thuN14	GenBank	mRNA	2883	4118	.	+	1	Parent=thuN14;ID=wCherry-H2B
 thuN14	GenBank	CDS	2883	3038	.	+	1	Parent=wCherry-H2B;ID=wCherry;label=wCherry
 thuN14	GenBank	CDS	3090	3283	.	+	1	Parent=wCherry-H2B;ID=wCherry;label=wCherry
@@ -10,8 +10,8 @@ thuN14	GenBank	CDS	3750	4118	.	+	1	Parent=wCherry-H2B;ID=H2B;label=H2B
 thuN14	GenBank	three_prime_UTR	4119	4534	.	+	1	Parent=wCherry-H2B;ID=UTR;label=Cbr-his-72 3'UTR
 X	GenBank	gene	18452710	18453373	.	+	1	ID=thuN23;description=Cni-xol-1.1 Deletion
 X	GenBank	gene	18791609	18791823	.	+	1	ID=thuN24_215bp_deletion;description=Although thuN30 is also a Cni-xol-1 mutant, the partial deletion retained residual activity. Therefore, an additional 215 bp was deleted to generate the thuN24 allele.
-thuN24	GenBank	gene	1232	5316	.	+	1	ID=thuN30_reporter;description=PCbr-Phis-72::mNeonGreen::H2B::Cbr-his-72 3'UTR
-thuN24	GenBank	promoter	1232	3613	.	+	1	Parent=thuN30_reporter;ID=PCbr-Phis-72_Promoter
+thuN24	GenBank	gene	1232	5316	.	+	1	ID=thuN30_reporter;description=PCbr-his-72::mNeonGreen::H2B::Cbr-his-72 3'UTR
+thuN24	GenBank	promoter	1232	3613	.	+	1	Parent=thuN30_reporter;ID=PCbr-his-72_Promoter
 thuN24	GenBank	mRNA	3614	5316	.	+	1	Parent=thuN30_reporter;ID=mNeonGreen-H2B
 thuN24	GenBank	CDS	3614	3719	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
 thuN24	GenBank	CDS	3771	3899	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
@@ -26,8 +26,8 @@ thuN24	GenBank	promoter	5328	6127	.	+	1	Parent=thuN30_neoR;ID=Prps-27_Promoter
 thuN24	GenBank	mRNA	6128	6922	.	+	1	Parent=thuN30_neoR;ID=neoR_mRNA
 thuN24	GenBank	CDS	6128	6922	.	+	1	Parent=neoR_mRNA;ID=neoR_CDS;label=neoR
 thuN24	GenBank	three_prime_UTR	6923	7621	.	+	1	Parent=neoR_mRNA;ID=UTR_neoR;label=unc-54 3'UTR
-thuN26	GenBank	gene	513	4585	.	+	1	ID=thuN26;description=PCbr-Phis-72::Myri::wCherry::Cbr-his-72 3'UTR
-thuN26	GenBank	promoter	513	2882	.	+	1	Parent=thuN26;ID=PCbr-Phis-72_Promoter
+thuN26	GenBank	gene	513	4585	.	+	1	ID=thuN26;description=PCbr-his-72::Myri::wCherry::Cbr-his-72 3'UTR
+thuN26	GenBank	promoter	513	2882	.	+	1	Parent=thuN26;ID=PCbr-his-72_Promoter
 thuN26	GenBank	mRNA	2883	4189	.	+	1	Parent=thuN26;ID=Myri_wCherry
 thuN26	GenBank	CDS	2883	2903	.	+	1	Parent=Myri_wCherry;ID=myristoylation;label=myristoylation
 thuN26	GenBank	CDS	2904	2909	.	+	1	Parent=Myri_wCherry;ID=SphI
@@ -36,8 +36,8 @@ thuN26	GenBank	CDS	3117	3310	.	+	1	Parent=Myri_wCherry;ID=wCherry;label=wCherry;
 thuN26	GenBank	CDS	3362	3554	.	+	1	Parent=Myri_wCherry;ID=wCherry;label=wCherry;translation=length.236
 thuN26	GenBank	CDS	3606	3773	.	+	1	Parent=Myri_wCherry;ID=wCherry;label=wCherry;translation=length.236
 thuN26	GenBank	three_prime_UTR	3774	4189	.	+	1	Parent=Myri_wCherry;ID=UTR;label=Cbr-his-72 3'UTR
-thuN30	GenBank	gene	501	4585	.	+	1	ID=thuN30_reporter;description=PCbr-Phis-72::mNeonGreen::H2B::Cbr-his-72 3'UTR
-thuN30	GenBank	promoter	501	2882	.	+	1	Parent=thuN30_reporter;ID=PCbr-Phis-72_Promoter
+thuN30	GenBank	gene	501	4585	.	+	1	ID=thuN30_reporter;description=PCbr-his-72::mNeonGreen::H2B::Cbr-his-72 3'UTR
+thuN30	GenBank	promoter	501	2882	.	+	1	Parent=thuN30_reporter;ID=PCbr-his-72_Promoter
 thuN30	GenBank	mRNA	2883	4585	.	+	1	Parent=thuN30_reporter;ID=mNeonGreen-H2B
 thuN30	GenBank	CDS	2883	2988	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
 thuN30	GenBank	CDS	3040	3168	.	+	1	Parent=mNeonGreen-H2B;ID=mNeonGreen;label=mNeonGreen
