@@ -1,0 +1,562 @@
+{
+  "configuration": {
+    "rpc": {
+      "defaultDriver": "WebWorkerRpcDriver",
+      "drivers": {
+        "MainThreadRpcDriver": {},
+        "WebWorkerRpcDriver": {}
+      }
+    },
+    "logoPath": {
+      "locationType": "UriLocation",
+      "uri": ""
+    }
+  },
+  "plugins": [],
+  "assemblies": [
+    {
+      "name": "cb4CnXol",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "cb4CnXol-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "cb4CnXol.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "cb4CnXol.fa.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "/path/to/fa.metadata.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "cb4CnXol.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "cb4CnXol-ReferenceSequenceTrack-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "cb4CnXol-ReferenceSequenceTrack-LinearGCContentDisplay"
+          }
+        ]
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "cb4CnXol.gff",
+      "name": "Genes",
+      "assemblyNames": [
+        "cb4CnXol"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "cb4CnXol.gff.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "cb4CnXol.gff.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "cb4CnXol.gff-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "cb4CnXol.gff-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "cb4CnXol_mixedSex_embryo_ATACseq",
+      "name": "ATACseq signals",
+      "assemblyNames": [
+        "cb4CnXol"
+      ],
+      "category": [
+        "ATACseq"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "locationType": "UriLocation",
+          "uri": "cb4CnXol_mixedSex_embryo_ATACseq.bw"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "cb4CnXol_mixedSex_embryo_ATACseq-LinearWiggleDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "cb4CnXol_narrowPeak_macs3",
+      "name": "narrowPeak_macs3",
+      "assemblyNames": [
+        "cb4CnXol"
+      ],
+      "category": [
+        "ATACseq"
+      ],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "locationType": "UriLocation",
+          "uri": "cb4CnXol_narrowPeak_macs3.bed"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "cb4CnXol_narrowPeak_macs3-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "cb4CnXol_narrowPeak_macs3-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "TRA-1_site_fimo",
+      "name": "TRA-1_site_fimo",
+      "assemblyNames": [
+        "cb4CnXol"
+      ],
+      "category": [
+        "binding site"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "locationType": "UriLocation",
+          "uri": "TRA-1_site_fimo.gff"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "TRA-1_site_fimo-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "TRA-1_site_fimo-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "thuB129",
+      "name": "thuB129 (Cni-xol-1)",
+      "assemblyNames": [
+        "cb4CnXol"
+      ],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "locationType": "UriLocation",
+          "uri": "thuB129.bed"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "thuB129-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "thuB129-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "TRA-1_site_PMC2778738",
+      "name": "TRA-1_site_PMC2778738",
+      "assemblyNames": [
+        "cb4CnXol"
+      ],
+      "category": [
+        "binding site"
+      ],
+      "adapter": {
+        "type": "BedAdapter",
+        "bedLocation": {
+          "locationType": "UriLocation",
+          "uri": "TRA-1_site_PMC2778738.bed"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "TRA-1_site_PMC2778738-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "TRA-1_site_PMC2778738-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "binding_site_by_jaspar",
+      "name": "binding_site_by_jaspar",
+      "assemblyNames": [
+        "cb4CnXol"
+      ],
+      "category": [
+        "binding site"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "locationType": "UriLocation",
+          "uri": "binding_site_by_jaspar.gff3"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "binding_site_by_jaspar-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "binding_site_by_jaspar-LinearArcDisplay"
+        }
+      ]
+    }
+  ],
+  "internetAccounts": [],
+  "aggregateTextSearchAdapters": [],
+  "connections": [],
+  "defaultSession": {
+    "drawerPosition": "right",
+    "drawerWidth": 384,
+    "widgets": {
+      "GridBookmark": {
+        "id": "GridBookmark",
+        "type": "GridBookmarkWidget"
+      },
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "view": "7SNleT8iL4Jt1CmyKilsM",
+        "faceted": {
+          "filterText": "",
+          "showSparse": false,
+          "showFilters": true,
+          "showOptions": false,
+          "panelWidth": 400
+        }
+      }
+    },
+    "activeWidgets": {},
+    "minimized": false,
+    "id": "z-3k55JorIA20lBYF-plC",
+    "name": "New session 2025/8/29 17:26:51",
+    "margin": 0,
+    "views": [
+      {
+        "id": "U7WP0XQvM0TpJxug_TZZk",
+        "minimized": false,
+        "type": "LinearSyntenyView",
+        "trackSelectorType": "hierarchical",
+        "showIntraviewLinks": true,
+        "linkViews": false,
+        "interactiveOverlay": false,
+        "levels": [
+          {
+            "id": "IeZEgNwhI1ArjPyhhvDKb",
+            "type": "LinearSyntenyViewHelper",
+            "tracks": [],
+            "height": 100,
+            "level": 0
+          }
+        ],
+        "views": [
+          {
+            "id": "Rmp2JqcWO8I-6lGN-uZRV",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 692977,
+            "bpPerPx": 9.692,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "cbrII",
+                "start": 0,
+                "end": 16651992,
+                "assemblyName": "cb4CnXol"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "YH-nPG20QMg54lXOgPR6k",
+                "type": "FeatureTrack",
+                "configuration": "thuB129",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "6FzVyh-2MLwC5loGhx6-m",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "thuB129-LinearBasicDisplay"
+                  }
+                ]
+              },
+              {
+                "id": "lzl6ccuppRMNoXryk0BkT",
+                "type": "FeatureTrack",
+                "configuration": "cb4CnXol.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "TJOEvvLVGFSdDgrHtFXs_",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "cb4CnXol.gff-LinearBasicDisplay"
+                  }
+                ]
+              },
+              {
+                "id": "-eXau3TzK6P-7G8ahxScQ",
+                "type": "QuantitativeTrack",
+                "configuration": "cb4CnXol_mixedSex_embryo_ATACseq",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "WB2CKuhXBCEHEwCHYCb8m",
+                    "type": "LinearWiggleDisplay",
+                    "configuration": "cb4CnXol_mixedSex_embryo_ATACseq-LinearWiggleDisplay",
+                    "selectedRendering": "",
+                    "resolution": 1,
+                    "constraints": {}
+                  }
+                ]
+              },
+              {
+                "id": "CHX2Q2SFZgUVjriCRn2rO",
+                "type": "FeatureTrack",
+                "configuration": "cb4CnXol_narrowPeak_macs3",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "jztKaB9ryFaxJS9Ncg043",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "cb4CnXol_narrowPeak_macs3-LinearBasicDisplay",
+                    "trackShowLabels": false,
+                    "trackDisplayMode": "collapse"
+                  }
+                ]
+              },
+              {
+                "id": "IpHpQ6cuODqUBqtjQ3hYG",
+                "type": "FeatureTrack",
+                "configuration": "TRA-1_site_fimo",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "7A8b_yB95pNo7vrXIZpA9",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "TRA-1_site_fimo-LinearBasicDisplay",
+                    "trackShowLabels": false
+                  }
+                ]
+              },
+              {
+                "id": "vq91_YN39v1pm-qRQsSbo",
+                "type": "FeatureTrack",
+                "configuration": "TRA-1_site_PMC2778738",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "szof9JzcuqZzTqJ0gJ919",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "TRA-1_site_PMC2778738-LinearBasicDisplay",
+                    "trackShowLabels": false
+                  }
+                ]
+              },
+              {
+                "id": "3Qa7cEiSntytdfb5h0jOd",
+                "type": "FeatureTrack",
+                "configuration": "binding_site_by_jaspar",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "E1-Ry-k0Aze4n_sQ9j-zX",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "binding_site_by_jaspar-LinearBasicDisplay",
+                    "trackShowLabels": false
+                  }
+                ]
+              }
+            ],
+            "hideHeader": false,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "bookmarkHighlightsVisible": true,
+            "bookmarkLabelsVisible": true
+          },
+          {
+            "id": "7SNleT8iL4Jt1CmyKilsM",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 1450763,
+            "bpPerPx": 9.5048,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "cbrX",
+                "start": 0,
+                "end": 21540570,
+                "assemblyName": "cb4CnXol"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "k_71YLo-V_0Lx_SPc8Rfj",
+                "type": "FeatureTrack",
+                "configuration": "cb4CnXol.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "k5WjvDNkgrqm0WpxZimlE",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "cb4CnXol.gff-LinearBasicDisplay"
+                  }
+                ]
+              },
+              {
+                "id": "GGff2WFd7dD_u2hCqJ-xo",
+                "type": "QuantitativeTrack",
+                "configuration": "cb4CnXol_mixedSex_embryo_ATACseq",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "iyUqUo_O20faQvUTCnqBL",
+                    "type": "LinearWiggleDisplay",
+                    "configuration": "cb4CnXol_mixedSex_embryo_ATACseq-LinearWiggleDisplay",
+                    "selectedRendering": "",
+                    "resolution": 1,
+                    "constraints": {}
+                  }
+                ]
+              },
+              {
+                "id": "pfzz8WQ2yABLM5vP_G_m6",
+                "type": "FeatureTrack",
+                "configuration": "cb4CnXol_narrowPeak_macs3",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "b76XyKOz1dqeKsdfzOHfP",
+                    "type": "LinearBasicDisplay",
+                    "heightPreConfig": 123,
+                    "configuration": "cb4CnXol_narrowPeak_macs3-LinearBasicDisplay",
+                    "trackShowLabels": false,
+                    "trackDisplayMode": "collapse"
+                  }
+                ]
+              },
+              {
+                "id": "ekFCqKI4uQ_g5j7cUMQii",
+                "type": "FeatureTrack",
+                "configuration": "TRA-1_site_fimo",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "7qOL5VtrlWGaOLmCZqELu",
+                    "type": "LinearBasicDisplay",
+                    "heightPreConfig": 67,
+                    "configuration": "TRA-1_site_fimo-LinearBasicDisplay",
+                    "trackShowLabels": false
+                  }
+                ]
+              },
+              {
+                "id": "OuEWxLl6TfqvV6kW2RA66",
+                "type": "FeatureTrack",
+                "configuration": "TRA-1_site_PMC2778738",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "fB7Ur4OnKfhFerQL5OW9P",
+                    "type": "LinearBasicDisplay",
+                    "heightPreConfig": 41,
+                    "configuration": "TRA-1_site_PMC2778738-LinearBasicDisplay",
+                    "trackShowLabels": false
+                  }
+                ]
+              },
+              {
+                "id": "iFRWWn2v_1qNMSjlLyTR6",
+                "type": "FeatureTrack",
+                "configuration": "binding_site_by_jaspar",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "q7luaVqcuR_GHCWcc90Yn",
+                    "type": "LinearBasicDisplay",
+                    "heightPreConfig": 47,
+                    "configuration": "binding_site_by_jaspar-LinearBasicDisplay",
+                    "trackShowLabels": false
+                  }
+                ]
+              }
+            ],
+            "hideHeader": false,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "bookmarkHighlightsVisible": true,
+            "bookmarkLabelsVisible": true
+          }
+        ],
+        "viewTrackConfigs": [],
+        "drawCIGAR": true,
+        "drawCurves": false
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "U7WP0XQvM0TpJxug_TZZk",
+    "sessionPlugins": []
+  },
+  "preConfiguredSessions": []
+}

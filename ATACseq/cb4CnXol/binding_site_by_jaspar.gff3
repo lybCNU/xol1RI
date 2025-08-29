@@ -1,0 +1,12 @@
+##gff-version 3
+cbrX	.	.	13792157	13792168	8.964315	-	.	Name=MA2185.1.tbx-37;score=8.964;rel=0.872;seq=TGAGGGAGAACA;strand=-||MA2186.1.tbx-38;score=7.739;rel=0.853;seq=TGAGGGAGAACA;strand=-
+cbrX	.	.	13792200	13792207	5.3439765	+	.	Name=MA2153.1.sex-1;score=5.344;rel=0.845;seq=AAGGCCAT;strand=+
+cbrX	.	.	13792216	13792223	5.3439765	+	.	Name=MA2153.1.sex-1;score=5.344;rel=0.845;seq=AAGGCCAT;strand=+
+cbrX	.	.	13792292	13792303	7.7724867	+	.	Name=MA2186.1.tbx-38;score=7.772;rel=0.853;seq=ATAGTGTGTTGT;strand=+
+cbrII	.	.	6720159	6720170	10.411049	-	.	Name=MA2185.1.tbx-37;score=10.411;rel=0.899;seq=GAGGTGTGAAGA;strand=-||MA2186.1.tbx-38;score=9.991;rel=0.897;seq=GAGGTGTGAAGA;strand=-
+cbrII	.	.	6720185	6720196	9.402648	+	.	Name=MA2186.1.tbx-38;score=9.403;rel=0.885;seq=TTGGTGTGGAAA;strand=+||MA2185.1.tbx-37;score=9.348;rel=0.879;seq=TTGGTGTGGAAA;strand=+
+cbrII	.	.	6720198	6720205	6.625135	+	.	Name=MA2153.1.sex-1;score=6.625;rel=0.87;seq=AAGGCCAA;strand=+
+cbrII	.	.	6720239	6720250	8.32773	+	.	Name=MA2186.1.tbx-38;score=8.328;rel=0.864;seq=AGAGTGTGGTTT;strand=+
+cbrII	.	.	6720270	6720281	8.787641	-	.	Name=MA2186.1.tbx-38;score=8.788;rel=0.873;seq=TGGGTGGGTACA;strand=-
+cbrII	.	.	6720299	6720310	11.354267	+	.	Name=MA2186.1.tbx-38;score=11.354;rel=0.923;seq=ATAGTGAGTAAT;strand=+||MA2185.1.tbx-37;score=8.955;rel=0.871;seq=ATAGTGAGTAAT;strand=+
+cbrII	.	.	6720320	6720327	6.625135	+	.	Name=MA2153.1.sex-1;score=6.625;rel=0.87;seq=AAGGGCAA;strand=+||sex-1:site2:AGGGCA
