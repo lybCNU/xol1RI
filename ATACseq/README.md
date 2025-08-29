@@ -12,7 +12,7 @@ This repository contains datasets, genome files, motif scans, and configuration 
 ### Motif and Binding Site Files
 
 * **tra-1 motif**
-  Motif predicted using **MEME-ChIP** based on 184 *C. elegans* TRA-1 ChIP-seq sites (Berkseth et al., 2013).
+  Motif predicted using **MEME-ChIP** based on 184 *C. elegans* TRA-1 ChIP-seq sites [(Berkseth et al., 2013)](https://pubmed.ncbi.nlm.nih.gov/24046365/).
 
 * **TRA-1\_site\_PMC2778738.bed**
   TRA-1_site_PMC2778738.bed TRA-1 binding sites in Cel-xol-1 promoter derived from the study referenced in [PMC2778738](https://pmc.ncbi.nlm.nih.gov/articles/PMC2778738/).
