@@ -1,6 +1,6 @@
 # Project Files Overview
 
-This repository contains datasets, genome files, motif scans, and configuration files for analyzing **binding sites in the endogenous *Cbr-xol-1* promoter and the *Cni-xol-1* promoter of the SCI[*Cni-xol-1*](*thuB129*) transgene in *C. briggsae*. ATAC-seq analysis revealed a **specific peak in the *Cni-xol-1* promoter**, and this repository provides motif and binding site analysis of that peak.
+This repository contains datasets, genome files, motif scans, and configuration files for analyzing **binding sites in the endogenous *Cbr-xol-1* promoter and the *Cni-xol-1* promoter of the SCI[*Cni-xol-1*]\(*thuB129*\) transgene in *C. briggsae*. ATAC-seq analysis revealed a **specific peak in the *Cni-xol-1* promoter**, and this repository provides motif and binding site analysis of that peak.
 
 👉 You can **visualize all data files interactively in JBrowse2** using the following link:
 [link](https://wormbase.org/tools/genome/jbrowse2/?config=https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/ATACseq/config.json)
@@ -48,7 +48,7 @@ This repository contains datasets, genome files, motif scans, and configuration 
   Configuration file used to generate JBrowse2 sessions and links.
 
 * **thuB129.bed**
-  Genomic intervals of SCI[*Cni-xol-1*](*thuB129*) aligned to the *cb4CnXol* genome.
+  Genomic intervals of SCI[*Cni-xol-1*]\(*thuB129*\) aligned to the *cb4CnXol* genome.
 
 ---
 
