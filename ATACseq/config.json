@@ -190,34 +190,6 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "TRA-1_site_PMC2778738",
-      "name": "TRA-1_site_PMC2778738",
-      "assemblyNames": [
-        "cb4CnXol"
-      ],
-      "category": [
-        "binding site"
-      ],
-      "adapter": {
-        "type": "BedAdapter",
-        "bedLocation": {
-          "locationType": "UriLocation",
-          "uri": "TRA-1_site_PMC2778738.bed"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "TRA-1_site_PMC2778738-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "TRA-1_site_PMC2778738-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
       "trackId": "binding_site_by_jaspar",
       "name": "binding_site_by_jaspar",
       "assemblyNames": [
@@ -381,20 +353,6 @@
                 ]
               },
               {
-                "id": "vq91_YN39v1pm-qRQsSbo",
-                "type": "FeatureTrack",
-                "configuration": "TRA-1_site_PMC2778738",
-                "minimized": false,
-                "displays": [
-                  {
-                    "id": "szof9JzcuqZzTqJ0gJ919",
-                    "type": "LinearBasicDisplay",
-                    "configuration": "TRA-1_site_PMC2778738-LinearBasicDisplay",
-                    "trackShowLabels": false
-                  }
-                ]
-              },
-              {
                 "id": "3Qa7cEiSntytdfb5h0jOd",
                 "type": "FeatureTrack",
                 "configuration": "binding_site_by_jaspar",
@@ -495,21 +453,6 @@
                     "type": "LinearBasicDisplay",
                     "heightPreConfig": 67,
                     "configuration": "TRA-1_site_fimo-LinearBasicDisplay",
-                    "trackShowLabels": false
-                  }
-                ]
-              },
-              {
-                "id": "OuEWxLl6TfqvV6kW2RA66",
-                "type": "FeatureTrack",
-                "configuration": "TRA-1_site_PMC2778738",
-                "minimized": false,
-                "displays": [
-                  {
-                    "id": "fB7Ur4OnKfhFerQL5OW9P",
-                    "type": "LinearBasicDisplay",
-                    "heightPreConfig": 41,
-                    "configuration": "TRA-1_site_PMC2778738-LinearBasicDisplay",
                     "trackShowLabels": false
                   }
                 ]
