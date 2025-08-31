@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to investigate the genetic basis of hybrid male incompatibility in *Caenorhabditis*. Specifically, it focuses on how disrupted regulation of **xol-1**, the X-linked master switch for sex determination and dosage compensation, contributes to embryonic inviability in hybrid males. By analyzing transcriptomic data from reciprocal crosses of *C. briggsae* and *C. nigoni*, as well as comparisons with *C. latens* and *C. remanei*, the study seeks to reveal how aberrant X-chromosome repression and reduced **Cbr-xol-1** expression underlie hybrid male lethality and drive the evolution of zygotic reproductive isolation.
+This repository provides transcriptomic data and analysis for *Caenorhabditis briggsae*, *Caenorhabditis nigoni*, and their hybrid embryos at the comma stage of development. 
 
 ## Data
 
@@ -22,7 +22,6 @@ This project aims to investigate the genetic basis of hybrid male incompatibilit
 
 1. Load the processed RNA-seq dataset (`RNAseq.RDS`) into R.
 2. Use the scripts (`fig2_figS2.R`, `fig3CDE_figS3.R`) to reproduce the figures presented in the study.
-3. Consult `Data_S1.txt` for the list of genes whose RNA-seq reads have less than 1% interspecific mapping contamination.
 
 ## Citation
 
