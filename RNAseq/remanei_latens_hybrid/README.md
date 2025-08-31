@@ -10,7 +10,7 @@ This repository provides transcriptomic data and analysis for *Caenorhabditis re
 
 ## Code
 
-* **fig7.R**: Script for generating Figure 77.
+* **figure7.R**: Script for generating Figure 7.
 
 ## Reference Files
 
@@ -19,7 +19,7 @@ This repository provides transcriptomic data and analysis for *Caenorhabditis re
 ## Usage
 
 1. Load the processed RNA-seq dataset (`RNAseq.RDS`) into R.
-2. Use the scripts (`fig7.R`) to reproduce the figures presented in the study.
+2. Use the scripts (`figure7.R`) to reproduce the figures presented in the study.
 
 ## Citation
 
