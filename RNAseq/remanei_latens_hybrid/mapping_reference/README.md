@@ -11,11 +11,11 @@ This folder contains the reference genome and annotation files used for sequence
 
 ## Sources
 
-* **C. latens**:
+* ***C. latens***:
 
   * Genome assembly: ASM225923v3
   * Annotation: Derived using **Liftoff** from `caenorhabditis_latens.PRJNA248912.WBPS19.annotations.gff3.gz`
-* **C. remanei**:
+* ***C. remanei***:
 
   * Genome assembly: ASM225922v3
   * Annotation: Derived using **Liftoff** from `caenorhabditis_remanei. PRJNA577507.WBPS19.annotations.gff3.gz`
