@@ -26,7 +26,7 @@ This repository contains datasets, genome files, motif scans, and configuration 
 ### Genome Files
 
 * **cb4CnXol.fa.gz** / **cb4CnXol.fa.gz.gzi**
-  Reference genome sequence for *C. briggsae* with SCI[*Cni-xol-1*], and its index file.
+  Reference genome sequence for *C. briggsae* harboring SCI[*Cni-xol-1*], and its index file.
 
 * **cb4CnXol.gff.gz** / **cb4CnXol.gff.gz.tbi**
   Genome annotation file and corresponding index.
