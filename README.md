@@ -19,14 +19,6 @@ Our research demonstrates that hybrid male inviability arises from insufficient 
 * **alleles/**
   Contains allele-specific expression analyses.
 
----
-
-## Data Usage
-
-All sequencing data are organized by experimental type and species cross. Please refer to individual folders for metadata and sample identifiers.
-
-* Raw data are provided in standard formats (FASTQ, BAM, etc.).
-* Processed data (normalized counts, peak files, allele-specific tables) are included for direct analysis.
 
 ---
 
