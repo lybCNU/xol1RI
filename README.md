@@ -17,7 +17,7 @@ Our research demonstrates that hybrid male inviability arises from insufficient 
   Includes transcriptomic data for quantifying gene expression.
 
 * **alleles/**
-  Contains allele-specific expression analyses.
+  Describes genetic reagents generated in this study.
 
 
 ---
