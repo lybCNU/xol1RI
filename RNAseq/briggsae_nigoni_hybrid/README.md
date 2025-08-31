@@ -26,8 +26,3 @@ This repository provides transcriptomic data and analysis for *Caenorhabditis br
 ## Citation
 
 If you use this repository or its data in your research, please cite the corresponding study.
-
----
-
-Maintainer: \[Your Name]
-Contact: \[Your Email]
