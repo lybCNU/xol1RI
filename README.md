@@ -18,7 +18,12 @@ Our research demonstrates that hybrid male inviability arises from insufficient 
 
 * **alleles/**
   Describes genetic reagents generated in this study.
-
+  
+* **C. tribulationis-merge-CSP40.scaffold00353-CSP40.scaffold01719_pilon/**
+  Assembly and Annotation Update of merge-CSP40.scaffold00353-CSP40.scaffold01719
+  
+* **Cni-xol-1_GeneModel_Revision/**
+  GeneModel Revision of *Cni-xol-1/1.1*
 
 ---
 
