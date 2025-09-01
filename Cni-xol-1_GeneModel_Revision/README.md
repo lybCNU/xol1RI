@@ -11,7 +11,7 @@ This repository contains files related to the transcript structure reanalysis of
 
 ## Visualization
 
-Interactive genome browser: [View in WormBase JBrowse2](https://wormbase.org/tools/genome/jbrowse2/?config=https%3A%2F%2Fraw.githubusercontent.com%2FlybCNU%2Fxol1RI%2Frefs%2Fheads%2Fmain%2FCni-xol-1_GeneModel_Revision%2Fconfig.json)
+Interactive genome browser: [View in JBrowse2](https://wormbase.org/tools/genome/jbrowse2/?config=https%3A%2F%2Fraw.githubusercontent.com%2FlybCNU%2Fxol1RI%2Frefs%2Fheads%2Fmain%2FCni-xol-1_GeneModel_Revision%2Fconfig.json)
 
 ## Methods
 
