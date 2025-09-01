@@ -268,15 +268,13 @@
   "adapter": {
     "type": "BamAdapter",
     "bamLocation": {
-      "locationType": "BlobLocation",
-      "name": "Public_RNAseq_on_Cni-xol-1.bam",
-      "blobId": "b1756737138486-0"
+      "locationType": "UriLocation",
+      "name": "Public_RNAseq_on_Cni-xol-1.bam"
     },
     "index": {
       "location": {
-        "locationType": "BlobLocation",
-        "name": "Public_RNAseq_on_Cni-xol-1.bam.bai",
-        "blobId": "b1756737145391-1"
+        "locationType": "UriLocation",
+        "name": "Public_RNAseq_on_Cni-xol-1.bam.bai"
       }
     },
     "sequenceAdapter": {
