@@ -257,7 +257,71 @@
           "displayId": "Cni-xol-1vsCni-xol-1.1-LGVSyntenyDisplay"
         }
       ]
+    },
+    {
+  "type": "AlignmentsTrack",
+  "trackId": "public_rnaseq_on_cni-xol-1.bam-1756737147286-sessionTrack",
+  "name": "Public_RNAseq_on_Cni-xol-1.bam",
+  "assemblyNames": [
+    "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
+  ],
+  "adapter": {
+    "type": "BamAdapter",
+    "bamLocation": {
+      "locationType": "BlobLocation",
+      "name": "Public_RNAseq_on_Cni-xol-1.bam",
+      "blobId": "b1756737138486-0"
+    },
+    "index": {
+      "location": {
+        "locationType": "BlobLocation",
+        "name": "Public_RNAseq_on_Cni-xol-1.bam.bai",
+        "blobId": "b1756737145391-1"
+      }
+    },
+    "sequenceAdapter": {
+      "type": "BgzipFastaAdapter",
+      "fastaLocation": {
+        "locationType": "UriLocation",
+        "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz"
+      },
+      "faiLocation": {
+        "locationType": "UriLocation",
+        "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.fai"
+      },
+      "metadataLocation": {
+        "locationType": "UriLocation",
+        "uri": "/path/to/fa.metadata.yaml"
+      },
+      "gziLocation": {
+        "locationType": "UriLocation",
+        "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.gzi"
+      }
     }
+  },
+  "displays": [
+    {
+      "type": "LinearAlignmentsDisplay",
+      "displayId": "public_rnaseq_on_cni-xol-1.bam-1756737147286-sessionTrack-LinearAlignmentsDisplay"
+    },
+    {
+      "type": "LinearPileupDisplay",
+      "displayId": "public_rnaseq_on_cni-xol-1.bam-1756737147286-sessionTrack-LinearPileupDisplay"
+    },
+    {
+      "type": "LinearSNPCoverageDisplay",
+      "displayId": "public_rnaseq_on_cni-xol-1.bam-1756737147286-sessionTrack-LinearSNPCoverageDisplay"
+    },
+    {
+      "type": "LinearReadArcsDisplay",
+      "displayId": "public_rnaseq_on_cni-xol-1.bam-1756737147286-sessionTrack-LinearReadArcsDisplay"
+    },
+    {
+      "type": "LinearReadCloudDisplay",
+      "displayId": "public_rnaseq_on_cni-xol-1.bam-1756737147286-sessionTrack-LinearReadCloudDisplay"
+    }
+  ]
+}
   ],
   "internetAccounts": [],
   "aggregateTextSearchAdapters": [],
