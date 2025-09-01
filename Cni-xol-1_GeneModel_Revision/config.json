@@ -269,12 +269,12 @@
     "type": "BamAdapter",
     "bamLocation": {
       "locationType": "UriLocation",
-      "name": "Public_RNAseq_on_Cni-xol-1.bam"
+      "uri": "Public_RNAseq_on_Cni-xol-1.bam"
     },
     "index": {
       "location": {
         "locationType": "UriLocation",
-        "name": "Public_RNAseq_on_Cni-xol-1.bam.bai"
+        "uri": "Public_RNAseq_on_Cni-xol-1.bam.bai"
       }
     },
     "sequenceAdapter": {
