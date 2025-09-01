@@ -2,6 +2,11 @@
 
 This repository contains files related to the transcript structure reanalysis of *Caenorhabditis nigoni* genes **Cni-xol-1** and **Cni-xol-1.1**.
 
+## Visualization
+
+Interactive genome browser: [View in JBrowse2](https://wormbase.org/tools/genome/jbrowse2/?config=https%3A%2F%2Fraw.githubusercontent.com%2FlybCNU%2Fxol1RI%2Frefs%2Fheads%2Fmain%2FCni-xol-1_GeneModel_Revision%2Fconfig.json)
+
+
 ## Contents
 
 * **Public\_RNAseq\_on\_Cni-xol-1.bam / .bam.bai**: RNA-seq alignments.
@@ -9,9 +14,6 @@ This repository contains files related to the transcript structure reanalysis of
 * **Cni-xol-1vsCni-xol-1.1.paf**: Pairwise alignment of *Cni-xol-1* vs *Cni-xol-1.1*.
 * **cb4\_vs\_JU1421\_ASM2792064v1.paf**: Genome alignment for visualization.
 
-## Visualization
-
-Interactive genome browser: [View in JBrowse2](https://wormbase.org/tools/genome/jbrowse2/?config=https%3A%2F%2Fraw.githubusercontent.com%2FlybCNU%2Fxol1RI%2Frefs%2Fheads%2Fmain%2FCni-xol-1_GeneModel_Revision%2Fconfig.json)
 
 ## Methods
 
