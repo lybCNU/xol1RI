@@ -1,0 +1,627 @@
+{
+  "configuration": {
+    "rpc": {
+      "defaultDriver": "WebWorkerRpcDriver",
+      "drivers": {
+        "MainThreadRpcDriver": {},
+        "WebWorkerRpcDriver": {}
+      }
+    },
+    "logoPath": {
+      "locationType": "UriLocation",
+      "uri": ""
+    }
+  },
+  "plugins": [],
+  "assemblies": [
+    {
+      "name": "c_briggsae.PRJNA10731.WS284.genomic",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_briggsae.PRJNA10731.WS284.genomic-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "/path/to/fa.metadata.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_briggsae.PRJNA10731.WS284.genomic-ReferenceSequenceTrack-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "c_briggsae.PRJNA10731.WS284.genomic-ReferenceSequenceTrack-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "GCA_027920645.1_ASM2792064v1_genomic-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "/path/to/fa.metadata.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "GCA_027920645.1_ASM2792064v1_genomic-ReferenceSequenceTrack-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "GCA_027920645.1_ASM2792064v1_genomic-ReferenceSequenceTrack-LinearGCContentDisplay"
+          }
+        ]
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "GCA_027920645.1_ASM2792064v1_annotation.gff",
+      "name": "Gene Liftoff From WormBase JU1422 (PRJNA384657)",
+      "assemblyNames": [
+        "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
+      ],
+      "category": [
+        "Genes"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_annotation.gff.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_annotation.gff.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "GCA_027920645.1_ASM2792064v1_annotation.gff-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "GCA_027920645.1_ASM2792064v1_annotation.gff-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "trackData",
+      "name": "Wormbase Curated Gene",
+      "assemblyNames": [
+        "c_briggsae.PRJNA10731.WS284.genomic"
+      ],
+      "description": "Protein-coding gene structures result from the integration of a variety of prediction methods and data sources followed by manual review and revison by WormBase curators. tRNAs are predicted by tRNAscan, and other non-coding RNA transcripts are taken from a variety of literature sources. The purple and blue colors indicate transcripts on the forward and reverse strands respectively. Dark purple areas represent 5' and 3' UTRs of protein-coding transcripts, assigned automatically using the extents of overlapping ESTs and full-length cDNAs. The UTR predictions have not been reviewed by WormBase curators, and some are known to contain artifacts. Grey transcripts represent either non-coding transcripts of protein coding genes or transcripts of non-coding genes.",
+      "category": [
+        "Curated Genes"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS295/c_briggsae_PRJNA10731/tracks/Curated_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "trackData-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "trackData-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "cb4_vs_JU1421_ASM2792064v1",
+      "name": "cb4_vs_JU1421_ASM2792064v1",
+      "assemblyNames": [
+        "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic",
+        "c_briggsae.PRJNA10731.WS284.genomic"
+      ],
+      "category": [
+        "Synteny"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "assemblyNames": [
+          "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic",
+          "c_briggsae.PRJNA10731.WS284.genomic"
+        ],
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "cb4_vs_JU1421_ASM2792064v1.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "cb4_vs_JU1421_ASM2792064v1-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "cb4_vs_JU1421_ASM2792064v1-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "cb4_vs_JU1421_ASM2792064v1-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "cb4_vs_JU1421_ASM2792064v1-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Cni-xol-1.stringtie.transdecoder",
+      "name": "Cni-xol-1.stringtie.transdecoder",
+      "assemblyNames": [
+        "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
+      ],
+      "category": [
+        "Genes"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "locationType": "UriLocation",
+          "uri": "Cni-xol-1_annotation_update.gff3"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "Cni-xol-1.stringtie.transdecoder-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "Cni-xol-1.stringtie.transdecoder-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "Cni-xol-1vsCni-xol-1.1",
+      "name": "Cni-xol-1vsCni-xol-1.1",
+      "assemblyNames": [
+        "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic",
+        "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "assemblyNames": [
+          "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic",
+          "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
+        ],
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "Cni-xol-1vsCni-xol-1.1.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "Cni-xol-1vsCni-xol-1.1-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "Cni-xol-1vsCni-xol-1.1-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "Cni-xol-1vsCni-xol-1.1-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "Cni-xol-1vsCni-xol-1.1-LGVSyntenyDisplay"
+        }
+      ]
+    }
+  ],
+  "internetAccounts": [],
+  "aggregateTextSearchAdapters": [],
+  "connections": [],
+  "defaultSession": {
+    "drawerPosition": "right",
+    "drawerWidth": 384,
+    "widgets": {
+      "GridBookmark": {
+        "id": "GridBookmark",
+        "type": "GridBookmarkWidget"
+      },
+      "syntenyFeature": {
+        "finalizedFeatureData": {
+          "uniqueId": "19557c_briggsae.PRJNA10731.WS284.genomic",
+          "assemblyName": "c_briggsae.PRJNA10731.WS284.genomic",
+          "start": 13791757,
+          "end": 13800593,
+          "type": "match",
+          "refName": "X",
+          "strand": 1,
+          "mappingQual": 60,
+          "NM": "2255",
+          "ms": "7521",
+          "AS": "6562",
+          "nn": "0",
+          "tp": "P",
+          "cm": "236",
+          "s1": "1565",
+          "s2": "2184",
+          "de": "0.1679",
+          "zd": "3",
+          "rl": "860614",
+          "CIGAR": "32M1D81M1I10M2D17M1I5M3D38M1D65M1I6M2I8M1D135M1D28M1I3M1D20M67I6M2D3M2D201M127D1M1D5M7D3M5D16M10D19M1D34M1D22M1I82M1I157M11I21M4I2M1D2M2D3M1D37M2I5M1D30M33D2M2D1M1D10M2D5M1I3M2D3M1I3M1D1M4D3M2D4M2D5M4I11M7D3M1I6M1D2M1I3M2D26M23D4M4D2M3D184M1I28M1I3M4I6M5I4M5I1M1I14M1D4M7I1M1D2M2I6M2I4M1I12M1I4M36I4M2I3M1D11M7I1M4I4M8I7M2D21M2D1M1D8M1I22M2I4M1I11M2D24M8I3M2I5M3I14M1I1M3I4M6I1M4I3M3D3M1I1M5I55M1D5M13D63M1I2M1D41M1I1M2I7M2D180M4D11M9I26M2I5M2D26M5I10M3D12M2I4M2D3M1I6M1D11M1I6M4D4M3D4M5D3M5D3M1D4M3D10M2I2M1D13M2D1M4D3M3I3M3D10M1I8M134D5M1I21M1D3M2I66M11I17M9I9M2I2M2I14M3I2M4I27M1I207M1I103M1D9M1D7M1I3M1I43M1D17M2I32M1I65M1I10M1D18M1D18M8D2M1D46M1I21M2D4M1I20M2I62M7I3M3I3M3I18M2D30M2D4M2I33M1I192M1D53M2D144M1D6M1D2M2I12M1D132M1D237M1I134M4D11M1D13M2I6M1D5M1D10M1I15M1D4M1I124M1D11M2D9M10I1M2I2M1I4M2I13M2D6M2I5M1D3M6D6M2I14M1D19M1D5M3D9M1I3M4I9M2D13M1I15M2I9M1D18M1I6M1D3M1I63M2I4M2I9M1I11M5D34M1I89M2I74M1D55M3I6M2I3M1I308M2D5M1D27M2D40M2D71M1I26M2I3M5I31M1D5M2I63M2D9M2I34M1D39M2I57M1D29M4D98M1I34M2I6M2D31M10I31M1D30M2I6M7I13M1I171M1D140M1I1M1I14M1I5M2D367M10D12M2I6M8I2M1I9M2D14M5I2M2D7M1D7M2D9M2D1M1I10M5I5M2I3M1I24M1I1M2I9M1I6M1I5M5I2M1I2M3I1M2I5M4I8M3I26M3I4M3I6M2I5M3I8M6I6M4I20M7I1M2I10M6D7M1I15M1I161M4I199M1I780M13I13M4I47M1I40M1I23M1I146M1I4M2D6M5D3M4D19M1I115M",
+          "syntenyId": 19557,
+          "identity": 0.7587977323777945,
+          "numMatches": 7094,
+          "blockLen": 9349,
+          "mate": {
+            "start": 18785181,
+            "end": 18793942,
+            "refName": "X",
+            "assemblyName": "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
+          },
+          "__jbrowsefmt": {}
+        },
+        "id": "syntenyFeature",
+        "type": "SyntenyFeatureWidget",
+        "view": "5jGaaNuIJ4xxW-2njY40R",
+        "track": "Kp7lkc636847u2RZbeiwR",
+        "trackId": "cb4_vs_JU1421_ASM2792064v1",
+        "trackType": "SyntenyTrack",
+        "maxDepth": 99999,
+        "sequenceFeatureDetails": {},
+        "level": 0
+      },
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "view": "HNIzJLfxUiLcWggTmYfye",
+        "faceted": {
+          "filterText": "",
+          "showSparse": false,
+          "showFilters": true,
+          "showOptions": false,
+          "panelWidth": 400
+        }
+      }
+    },
+    "activeWidgets": {},
+    "minimized": false,
+    "id": "f6oic5X4YAc9YFBq9t98k",
+    "name": "New Session 2025/9/1 21:21:49",
+    "margin": 0,
+    "views": [
+      {
+        "id": "5jGaaNuIJ4xxW-2njY40R",
+        "minimized": false,
+        "type": "LinearSyntenyView",
+        "trackSelectorType": "hierarchical",
+        "showIntraviewLinks": true,
+        "linkViews": false,
+        "interactiveOverlay": false,
+        "levels": [
+          {
+            "id": "Bh5M0zNiZ1w5SyqGD85w8",
+            "type": "LinearSyntenyViewHelper",
+            "tracks": [
+              {
+                "id": "Kp7lkc636847u2RZbeiwR",
+                "type": "SyntenyTrack",
+                "configuration": "cb4_vs_JU1421_ASM2792064v1",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "4ZwE5wvQozVEreTEKhS-V",
+                    "type": "LinearSyntenyDisplay",
+                    "configuration": "cb4_vs_JU1421_ASM2792064v1-LinearSyntenyDisplay"
+                  }
+                ]
+              }
+            ],
+            "height": 100,
+            "level": 0
+          },
+          {
+            "id": "VlXen28AbnLIGG1Z_jwte",
+            "type": "LinearSyntenyViewHelper",
+            "tracks": [
+              {
+                "id": "uHOhhzrmYkIkdna_y2oJP",
+                "type": "SyntenyTrack",
+                "configuration": "Cni-xol-1vsCni-xol-1.1",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "I95dUsP8DqbI2GYF8lUQP",
+                    "type": "LinearSyntenyDisplay",
+                    "configuration": "Cni-xol-1vsCni-xol-1.1-LinearSyntenyDisplay"
+                  }
+                ]
+              }
+            ],
+            "height": 100,
+            "level": 1
+          },
+          {
+            "id": "e28Trd4tTGncNFBwOJLHC",
+            "type": "LinearSyntenyViewHelper",
+            "tracks": [
+              {
+                "id": "SQtVrMWePgggAJE_Y62v-",
+                "type": "SyntenyTrack",
+                "configuration": "cb4_vs_JU1421_ASM2792064v1",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "YC_YFTGocQlBrxNjZNuT3",
+                    "type": "LinearSyntenyDisplay",
+                    "configuration": "cb4_vs_JU1421_ASM2792064v1-LinearSyntenyDisplay"
+                  }
+                ]
+              }
+            ],
+            "height": 100,
+            "level": 2
+          }
+        ],
+        "views": [
+          {
+            "id": "S532kvR-tFAjEWqL4Vc0W",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 1351353,
+            "bpPerPx": 10.204387990762125,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "X",
+                "start": 0,
+                "end": 21540570,
+                "assemblyName": "c_briggsae.PRJNA10731.WS284.genomic"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "tctr36wHh9YMW3382dDqM",
+                "type": "FeatureTrack",
+                "configuration": "trackData",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "MlmGdB32TABfvDamOsOXB",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "trackData-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "bookmarkHighlightsVisible": true,
+            "bookmarkLabelsVisible": true
+          },
+          {
+            "id": "4QvZSBbJGZtouAzn4XDP3",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 1856467,
+            "bpPerPx": 10.117782909930716,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "X",
+                "start": 0,
+                "end": 29053730,
+                "assemblyName": "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "CEOjHS2Vu9Yw8RARWuuBW",
+                "type": "FeatureTrack",
+                "configuration": "GCA_027920645.1_ASM2792064v1_annotation.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "upKXovnFDbcJxi67PEbqF",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "GCA_027920645.1_ASM2792064v1_annotation.gff-LinearBasicDisplay"
+                  }
+                ]
+              },
+              {
+                "id": "R6kTYiJD9q6wluA1WD2sX",
+                "type": "FeatureTrack",
+                "configuration": "Cni-xol-1.stringtie.transdecoder",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "bfzHD8bnhtrZ6lH0iN2pw",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "Cni-xol-1.stringtie.transdecoder-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "bookmarkHighlightsVisible": true,
+            "bookmarkLabelsVisible": true
+          },
+          {
+            "id": "zG_TO41TDq0H5qwZ8cnu5",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 1095172,
+            "bpPerPx": 9.672055427251733,
+            "displayedRegions": [
+              {
+                "reversed": true,
+                "refName": "X",
+                "start": 0,
+                "end": 29053730,
+                "assemblyName": "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "rYEyJmlks-Ucn4KNOLc11",
+                "type": "FeatureTrack",
+                "configuration": "GCA_027920645.1_ASM2792064v1_annotation.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "ayom8Um66Jai074qGqtcw",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "GCA_027920645.1_ASM2792064v1_annotation.gff-LinearBasicDisplay"
+                  }
+                ]
+              },
+              {
+                "id": "-mnVkyrvXBIffJv688pA3",
+                "type": "FeatureTrack",
+                "configuration": "Cni-xol-1.stringtie.transdecoder",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "4_m3x7dlvpE64J9bPFmEr",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "Cni-xol-1.stringtie.transdecoder-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "bookmarkHighlightsVisible": true,
+            "bookmarkLabelsVisible": true
+          },
+          {
+            "id": "HNIzJLfxUiLcWggTmYfye",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 1243731,
+            "bpPerPx": 11.087297921478061,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "X",
+                "start": 0,
+                "end": 21540570,
+                "assemblyName": "c_briggsae.PRJNA10731.WS284.genomic"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "JbhuDp_MjkLgSNlEqX7vg",
+                "type": "FeatureTrack",
+                "configuration": "trackData",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "kqRehUeRfqFYd8pRjfH6t",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "trackData-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "bookmarkHighlightsVisible": true,
+            "bookmarkLabelsVisible": true
+          }
+        ],
+        "viewTrackConfigs": [],
+        "drawCIGAR": true,
+        "drawCurves": false
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "5jGaaNuIJ4xxW-2njY40R",
+    "sessionPlugins": []
+  },
+  "preConfiguredSessions": []
+}
