@@ -11,10 +11,10 @@ Our research demonstrates that hybrid male inviability arises from insufficient 
 ## Repository Structure
 
 * **ATACseq/**
-  Contains chromatin accessibility profiles used to examine binding site at xol-1 Promoters.
+  Contains chromatin accessibility profiles used to examine binding site at *xol-1* Promoters.
 
 * **RNAseq/**
-  Includes transcriptomic data for quantifying gene expression.
+  Includes transcriptomic data for *C. nigoni*, *C. briggsae*, *C. remanei*, *C. latens* and their hybrid.
 
 * **alleles/**
   Describes genetic reagents generated in this study.
