@@ -228,9 +228,6 @@
         "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic",
         "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
       ],
-      "category": [
-        "Synteny"
-      ],
       "adapter": {
         "type": "PAFAdapter",
         "assemblyNames": [
@@ -258,71 +255,6 @@
         {
           "type": "LGVSyntenyDisplay",
           "displayId": "Cni-xol-1vsCni-xol-1.1-LGVSyntenyDisplay"
-        }
-      ]
-    },
-    {
-      "type": "AlignmentsTrack",
-      "trackId": "Public_RNAseq_on_Cni-xol-1",
-      "name": "Public_RNAseq_on_Cni-xol-1",
-      "assemblyNames": [
-        "c.nigoni.GCA_027920645.1_ASM2792064v1_genomic"
-      ],
-      "category": [
-        "RNAseq"
-      ],
-      "adapter": {
-        "type": "BamAdapter",
-        "bamLocation": {
-          "locationType": "UriLocation",
-          "uri": "Public_RNAseq_on_Cni-xol-1.bam"
-        },
-        "index": {
-          "location": {
-            "locationType": "UriLocation",
-            "uri": "Public_RNAseq_on_Cni-xol-1.bam.bai"
-          }
-        },
-        "sequenceAdapter": {
-          "type": "BgzipFastaAdapter",
-          "fastaLocation": {
-            "locationType": "UriLocation",
-            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz"
-          },
-          "faiLocation": {
-            "locationType": "UriLocation",
-            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.fai"
-          },
-          "metadataLocation": {
-            "locationType": "UriLocation",
-            "uri": "/path/to/fa.metadata.yaml"
-          },
-          "gziLocation": {
-            "locationType": "UriLocation",
-            "uri": "https://raw.githubusercontent.com/lybCNU/xol1RI/refs/heads/main/alleles/GCA_027920645.1_ASM2792064v1_genomic.fa.gz.gzi"
-          }
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearAlignmentsDisplay",
-          "displayId": "Public_RNAseq_on_Cni-xol-1-LinearAlignmentsDisplay"
-        },
-        {
-          "type": "LinearPileupDisplay",
-          "displayId": "Public_RNAseq_on_Cni-xol-1-LinearPileupDisplay"
-        },
-        {
-          "type": "LinearSNPCoverageDisplay",
-          "displayId": "Public_RNAseq_on_Cni-xol-1-LinearSNPCoverageDisplay"
-        },
-        {
-          "type": "LinearReadArcsDisplay",
-          "displayId": "Public_RNAseq_on_Cni-xol-1-LinearReadArcsDisplay"
-        },
-        {
-          "type": "LinearReadCloudDisplay",
-          "displayId": "Public_RNAseq_on_Cni-xol-1-LinearReadCloudDisplay"
         }
       ]
     }
@@ -385,7 +317,7 @@
       "hierarchicalTrackSelector": {
         "id": "hierarchicalTrackSelector",
         "type": "HierarchicalTrackSelectorWidget",
-        "view": "zG_TO41TDq0H5qwZ8cnu5",
+        "view": "HNIzJLfxUiLcWggTmYfye",
         "faceted": {
           "filterText": "",
           "showSparse": false,
@@ -393,17 +325,12 @@
           "showOptions": false,
           "panelWidth": 400
         }
-      },
-      "configEditor": {
-        "id": "configEditor",
-        "type": "ConfigurationEditorWidget",
-        "target": "Cni-xol-1vsCni-xol-1.1"
       }
     },
     "activeWidgets": {},
     "minimized": false,
     "id": "f6oic5X4YAc9YFBq9t98k",
-    "name": "New Session 2025/9/1 21:21:49 2025/9/2 08:38:15",
+    "name": "New Session 2025/9/1 21:21:49",
     "margin": 0,
     "views": [
       {
@@ -484,8 +411,8 @@
             "id": "S532kvR-tFAjEWqL4Vc0W",
             "minimized": false,
             "type": "LinearGenomeView",
-            "offsetPx": 1892208,
-            "bpPerPx": 7.28884856483009,
+            "offsetPx": 1351353,
+            "bpPerPx": 10.204387990762125,
             "displayedRegions": [
               {
                 "reversed": false,
@@ -528,8 +455,8 @@
             "id": "4QvZSBbJGZtouAzn4XDP3",
             "minimized": false,
             "type": "LinearGenomeView",
-            "offsetPx": 2599346,
-            "bpPerPx": 7.2269877928076545,
+            "offsetPx": 1856467,
+            "bpPerPx": 10.117782909930716,
             "displayedRegions": [
               {
                 "reversed": false,
@@ -565,46 +492,6 @@
                     "configuration": "Cni-xol-1.stringtie.transdecoder-LinearBasicDisplay"
                   }
                 ]
-              },
-              {
-                "id": "LxMYoNebckSxMH4N8JtDd",
-                "type": "AlignmentsTrack",
-                "configuration": "Public_RNAseq_on_Cni-xol-1",
-                "minimized": false,
-                "displays": [
-                  {
-                    "id": "c7HJo2xVUQIRcaP5OcVlp",
-                    "type": "LinearAlignmentsDisplay",
-                    "PileupDisplay": {
-                      "id": "Y4xyoBWFmINMNBaU3G0FA",
-                      "type": "LinearPileupDisplay",
-                      "heightPreConfig": 20,
-                      "configuration": {
-                        "type": "LinearPileupDisplay",
-                        "displayId": "Public_RNAseq_on_Cni-xol-1-LinearAlignmentsDisplay_LinearPileupDisplay_xyz"
-                      },
-                      "jexlFilters": [],
-                      "showSoftClipping": false
-                    },
-                    "SNPCoverageDisplay": {
-                      "id": "1zcVDOYr7h6R5scIbMKsi",
-                      "type": "LinearSNPCoverageDisplay",
-                      "heightPreConfig": 45,
-                      "configuration": {
-                        "type": "LinearSNPCoverageDisplay",
-                        "displayId": "Public_RNAseq_on_Cni-xol-1-LinearAlignmentsDisplay_snpcoverage_xyz"
-                      },
-                      "selectedRendering": "",
-                      "resolution": 1,
-                      "constraints": {},
-                      "jexlFilters": []
-                    },
-                    "snpCovHeight": 45,
-                    "configuration": "Public_RNAseq_on_Cni-xol-1-LinearAlignmentsDisplay",
-                    "heightPreConfig": 41,
-                    "lowerPanelType": "LinearPileupDisplay"
-                  }
-                ]
               }
             ],
             "hideHeader": true,
@@ -625,8 +512,8 @@
             "id": "zG_TO41TDq0H5qwZ8cnu5",
             "minimized": false,
             "type": "LinearGenomeView",
-            "offsetPx": 1533533,
-            "bpPerPx": 6.908611019465524,
+            "offsetPx": 1095172,
+            "bpPerPx": 9.672055427251733,
             "displayedRegions": [
               {
                 "reversed": true,
@@ -662,46 +549,6 @@
                     "configuration": "Cni-xol-1.stringtie.transdecoder-LinearBasicDisplay"
                   }
                 ]
-              },
-              {
-                "id": "cTtOLwUZ__Zt9YMoExEa5",
-                "type": "AlignmentsTrack",
-                "configuration": "Public_RNAseq_on_Cni-xol-1",
-                "minimized": false,
-                "displays": [
-                  {
-                    "id": "D2IaHALbMrf8peb_yEC0Z",
-                    "type": "LinearAlignmentsDisplay",
-                    "PileupDisplay": {
-                      "id": "bd_8jW9gYKyO3Zp41Yr8T",
-                      "type": "LinearPileupDisplay",
-                      "heightPreConfig": 20,
-                      "configuration": {
-                        "type": "LinearPileupDisplay",
-                        "displayId": "Public_RNAseq_on_Cni-xol-1-LinearAlignmentsDisplay_LinearPileupDisplay_xyz"
-                      },
-                      "jexlFilters": [],
-                      "showSoftClipping": false
-                    },
-                    "SNPCoverageDisplay": {
-                      "id": "pWg-F1F40LY_IpB8FizHK",
-                      "type": "LinearSNPCoverageDisplay",
-                      "heightPreConfig": 45,
-                      "configuration": {
-                        "type": "LinearSNPCoverageDisplay",
-                        "displayId": "Public_RNAseq_on_Cni-xol-1-LinearAlignmentsDisplay_snpcoverage_xyz"
-                      },
-                      "selectedRendering": "",
-                      "resolution": 1,
-                      "constraints": {},
-                      "jexlFilters": []
-                    },
-                    "snpCovHeight": 45,
-                    "configuration": "Public_RNAseq_on_Cni-xol-1-LinearAlignmentsDisplay",
-                    "heightPreConfig": 43,
-                    "lowerPanelType": "LinearPileupDisplay"
-                  }
-                ]
               }
             ],
             "hideHeader": true,
@@ -722,8 +569,8 @@
             "id": "HNIzJLfxUiLcWggTmYfye",
             "minimized": false,
             "type": "LinearGenomeView",
-            "offsetPx": 1741516,
-            "bpPerPx": 7.9194985153414725,
+            "offsetPx": 1243731,
+            "bpPerPx": 11.087297921478061,
             "displayedRegions": [
               {
                 "reversed": false,
@@ -773,7 +620,7 @@
     "temporaryAssemblies": [],
     "connectionInstances": [],
     "sessionConnections": [],
-    "focusedViewId": "zG_TO41TDq0H5qwZ8cnu5",
+    "focusedViewId": "5jGaaNuIJ4xxW-2njY40R",
     "sessionPlugins": []
   },
   "preConfiguredSessions": []
